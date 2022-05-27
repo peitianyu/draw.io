@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T06:40:37.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="eE-eNI5X6p9gl1-mzhPp" version="18.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-27T06:43:07.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="56GGmI8283RVzv3PfaJX" version="18.1.3" type="github" pages="4">
   <diagram id="SXDzIxjwFs5qBVc4k4xD" name="hector算法流程">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -234,11 +234,11 @@
         <mxCell id="IfXHZQAcNTfOnveNpqo6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IfXHZQAcNTfOnveNpqo6-2" target="IfXHZQAcNTfOnveNpqo6-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IfXHZQAcNTfOnveNpqo6-2" value="VoxelFilter(laser,resolution)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IfXHZQAcNTfOnveNpqo6-2" value="VoxelFilter(laser)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="180" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IfXHZQAcNTfOnveNpqo6-4" value="RotateDiscreteScan(scan)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="320" width="210" height="60" as="geometry" />
+          <mxGeometry x="255" y="290" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
