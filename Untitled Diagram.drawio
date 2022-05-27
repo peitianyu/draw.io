@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T01:50:29.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="M60SQAynqo74NGi8HdIg" version="18.1.2" type="github" pages="3">
-  <diagram id="SXDzIxjwFs5qBVc4k4xD" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-05-27T02:00:56.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="yZHmrpujk5JQUvnQeScR" version="18.1.2" type="github" pages="3">
+  <diagram id="SXDzIxjwFs5qBVc4k4xD" name="hector算法流程">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -124,22 +124,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HfxryLKnwf-Uj9UoxlDc-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HfxryLKnwf-Uj9UoxlDc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HfxryLKnwf-Uj9UoxlDc-2" target="HfxryLKnwf-Uj9UoxlDc-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HfxryLKnwf-Uj9UoxlDc-2" value="生成一组粒子,并收敛" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="HfxryLKnwf-Uj9UoxlDc-2" value="收敛" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HfxryLKnwf-Uj9UoxlDc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HfxryLKnwf-Uj9UoxlDc-4" target="HfxryLKnwf-Uj9UoxlDc-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HfxryLKnwf-Uj9UoxlDc-4" value="粒子少于(5),则重新生成粒子,再次基础上继续收敛" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="354" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HfxryLKnwf-Uj9UoxlDc-6" value="直到收敛成功并且粒子大于(5),成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="354" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma8iIcKeNHSnMMjfjX0H-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ma8iIcKeNHSnMMjfjX0H-1" target="Ma8iIcKeNHSnMMjfjX0H-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma8iIcKeNHSnMMjfjX0H-1" value="粒子大于5?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma8iIcKeNHSnMMjfjX0H-16" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma8iIcKeNHSnMMjfjX0H-17" value="生成粒子,并收敛" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ma8iIcKeNHSnMMjfjX0H-19" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
