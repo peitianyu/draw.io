@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T04:02:11.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="cwmVooCLZjHdY9RomQYR" version="18.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-27T01:48:35.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="hCR5m1LRlLkXChADbcdN" version="18.1.2" type="github" pages="3">
   <diagram id="SXDzIxjwFs5qBVc4k4xD" name="Page-1">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -112,6 +112,35 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_oVwRkmQ_IZ_GsluW6Aa" name="Page-3">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HfxryLKnwf-Uj9UoxlDc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HfxryLKnwf-Uj9UoxlDc-1" target="HfxryLKnwf-Uj9UoxlDc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HfxryLKnwf-Uj9UoxlDc-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HfxryLKnwf-Uj9UoxlDc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HfxryLKnwf-Uj9UoxlDc-2" target="HfxryLKnwf-Uj9UoxlDc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HfxryLKnwf-Uj9UoxlDc-2" value="生成一组粒子,并收敛" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HfxryLKnwf-Uj9UoxlDc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HfxryLKnwf-Uj9UoxlDc-4" target="HfxryLKnwf-Uj9UoxlDc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HfxryLKnwf-Uj9UoxlDc-4" value="粒子少于(5),则重新生成粒子,再次基础上继续收敛" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HfxryLKnwf-Uj9UoxlDc-6" value="直到收敛成功并且粒子大于(5),成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
